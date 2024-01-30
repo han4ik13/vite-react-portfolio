@@ -18,7 +18,7 @@ function App() {
 			<Router>
 				<ScrollToTop />
 				<Navbar />
-				<Routes basename='/vite-react-portfolio'>
+				<Routes>
 					<Route path='/' element= {<Home />} />
 					<Route path='/projects' element= {<Projects />} />
 					<Route path='/project/:id' element= {<Project />} />
