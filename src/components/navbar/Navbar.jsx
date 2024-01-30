@@ -19,13 +19,13 @@ export const Navbar = () => {
 						<BtnDarkMode/>
 						<ul className="nav-list">
 							<li className="nav-list__item">
-								<NavLink to='/' className={ ({isActive}) => isActive ? activeLink : normalLink }> Home </NavLink>
+								<NavLink to='/vite-react-portfolio/' className={ ({isActive}) => isActive ? activeLink : normalLink }> Home </NavLink>
 							</li>
 							<li className="nav-list__item">
-								<NavLink to='/Projects' className={ ({isActive}) => isActive ? activeLink : normalLink }> Projects </NavLink>
+								<NavLink to='/vite-react-portfolio/Projects' className={ ({isActive}) => isActive ? activeLink : normalLink }> Projects </NavLink>
 							</li>
 							<li className="nav-list__item">
-								<NavLink to='/Contacts' className={ ({isActive}) => isActive ? activeLink : normalLink }> Contacts </NavLink>
+								<NavLink to='/vite-react-portfolio/Contacts' className={ ({isActive}) => isActive ? activeLink : normalLink }> Contacts </NavLink>
 							</li>
 						</ul>
 					</div>
